@@ -1,0 +1,23 @@
+First steps with Laravel following the documentation's bootcamp.
+
+For this first commit, I've learned:
+
+1. To create a new Laravel project with Composer by running the command composer create-project laravel/laravel project_name.
+2. To start the local server with Artisan by running php artisan serve.
+2.1. Artisan is the Laravel's CLI which provides a bunch of helpful commands like running the local server, creating migrates, generate files and so on.
+3. To use Laravel Breeze which provides authentication features to use on the application.
+4. To return views with Blade templates.
+5. To use the command php artisan make:model -mrc model_name to create a Model, a Migration and a Controller for a resource.
+6. To create and use Eloquent Models.
+6.1. Eloquent is the ORM included in Laravel.
+6.2. Models are PHP classes used to interact with the database. Each class represents a table in the database.
+7. To create and run Migrations.
+7.1. Migrations are anonymous PHP classes where we can create and modify to our schemas.
+7.2. To run the migrations using php artisan migrate command.
+8. To create a Controller which is the class responsible for HTTP requests and responses (we can return a Blade view directly).
+9. To create and implement routes for a resource's controller. The routes are located on the web.php file.
+10. To create relationship between classes.
+11. To use Artisan Tinker to run PHP code. It was used to retrieve data from the database. i.e. App\Model\Chirp::all();
+12. To retrieve and display data.
+13. To implement the layouts with HTML and Tailwind CSS and use the conditional statements like @if @endinf, @foreach @endforeach.
+14. To add authorization to execute some action like update and delete data.
